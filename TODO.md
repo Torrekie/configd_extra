@@ -20,7 +20,7 @@
 
 ### `SystemConfiguration-Extra`
 - [ ] `NetInfo`, `SMB`, `ConsoleUser`
-- [ ] Ethernet Bond
+- [x] Ethernet Bond
 - [ ] Bluetooth PAN
 - [ ] DOS Encoding
 - [ ] Missing functions
