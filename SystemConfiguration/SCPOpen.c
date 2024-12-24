@@ -49,7 +49,7 @@
 #include "dy_framework.h"
 
 
-const AuthorizationRef	kSCPreferencesUseEntitlementAuthorization	= (AuthorizationRef)CFSTR("UseEntitlement");
+extern const AuthorizationRef	kSCPreferencesUseEntitlementAuthorization;
 
 
 __private_extern__ os_log_t
