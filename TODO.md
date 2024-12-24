@@ -8,19 +8,19 @@
 
 ### Libraries
 
-- [ ] `/Library/Frameworks/SystemConfiguration-Extra.framework`
+- [x] `/Library/Frameworks/SystemConfiguration-Extra.framework`
 
 ### `configd_extra`
 
 - [ ] `/var/run/resolv.conf` creation
-- [ ] Load missing plugins
+- [ ] Load missing plugins (Need a fully replaced configd)
 
 ### `scutil_extra`
 - [ ] `scutil --allow-new-interfaces [off|on]`
 
 ### `SystemConfiguration-Extra`
-- [ ] `NetInfo`, `SMB`, `ConsoleUser`
+- [ ] `NetInfo`, `SMB`, `ConsoleUser` (Need a fully replaced SystemConfiguration)
 - [x] Ethernet Bond
-- [ ] Bluetooth PAN
-- [ ] DOS Encoding
-- [ ] Missing functions
+- [x] Bluetooth PAN
+- [x] DOS Encoding
+- [x] Missing functions
