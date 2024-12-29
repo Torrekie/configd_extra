@@ -2,24 +2,25 @@
 
 ### Commands
 
-- [ ] `/usr/libexec/configd_extra`
+- [ ] ~~`/usr/libexec/configd_extra`~~
+- [x] `/usr/libexec/configd_dnsinfo`
 - [x] `/usr/sbin/scselect` (There has nothing to do)
-- [ ] `/usr/sbin/scutil_extra`
+- [x] `/usr/sbin/scutil_extra`
 
 ### Libraries
 
 - [x] `/Library/Frameworks/SystemConfiguration-Extra.framework`
 
-### `configd_extra`
+### `configd_dnsinfo`
 
-- [ ] `/var/run/resolv.conf` creation
-- [ ] Load missing plugins (Need a fully replaced configd)
+- [x] `/var/run/resolv.conf` creation
+- [ ] ~~Load missing plugins (Need a fully replaced configd)~~
 
 ### `scutil_extra`
-- [ ] `scutil --allow-new-interfaces [off|on]`
+- [x] `scutil --allow-new-interfaces [off|on]`
 
 ### `SystemConfiguration-Extra`
-- [ ] `NetInfo`, `SMB`, `ConsoleUser` (Need a fully replaced SystemConfiguration)
+- [ ] ~~`NetInfo`, `SMB`, `ConsoleUser` (Need a fully replaced SystemConfiguration)~~
 - [x] Ethernet Bond
 - [x] Bluetooth PAN
 - [x] DOS Encoding
